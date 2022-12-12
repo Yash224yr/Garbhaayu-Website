@@ -62,6 +62,9 @@
     display: inline-block;
     margin-top: 22px;
 }
+.midleft a:hover{
+    background-color: rgba(165, 42, 42, 0.462);
+}
 .midright{
     width: 50%;
 }
