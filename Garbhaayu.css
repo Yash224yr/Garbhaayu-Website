@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-.header, .mid{
+.header{
     padding: 0 6rem;
 }
 .header{
@@ -43,14 +44,14 @@
 }
 .mid{
     display: flex;
-    padding: 5rem;
+    padding: 6rem;
 }
 .midleft{
     width: 50%;
 }
 .midleft h1{
     width: 32rem;
-    font-size: 50px
+    font-size: 40px
 }
 .midleft a{
     text-decoration: none;
@@ -66,4 +67,30 @@
 }
 .midright img{
     width: 30rem;
+}
+.mid2{
+    padding: 0 6rem;
+}
+.mid2 h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service .image{
+    width: 33%;
+    text-align: center;
+}
+.image h2{
+    font-size: 18px;
+    margin: 5px 0 62px;
+}
+.service img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
